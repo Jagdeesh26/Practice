@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Table_In_Reverse_Order {
+    public static void main(String[] args) {
+
+
+        Scanner src=new Scanner(System.in);
+
+        System.out.println("Please The Number");
+        int Num=src.nextInt();
+        {
+            for (int i = 10; i >= 1; i--)
+            {
+                int table=Num*i;
+                System.out.println(table);
+            }
+
+
+        }}}
